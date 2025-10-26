@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header, section, footer {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.project-card {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Animations */
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+.animate.delay-1 { animation-delay: 0.5s; }
+.animate.delay-2 { animation-delay: 1s; }
+.animate.delay-3 { animation-delay: 1.5s; }
+.animate.delay-4 { animation-delay: 2s; }
+.animate.delay-5 { animation-delay: 2.5s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
