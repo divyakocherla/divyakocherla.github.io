@@ -1,120 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Divya Kocherla | Portfolio</title>
-  <style>
-    body {
-      font-family: 'Poppins', Arial, sans-serif;
-      background-color: #fff;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-
-    header {
-      background: linear-gradient(135deg, #ff8fb1, #ff5c8a);
-      color: white;
-      text-align: center;
-      padding: 30px 0;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.2rem;
-    }
-
-    nav {
-      background-color: #ffb6c1;
-      text-align: center;
-      padding: 10px;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    section {
-      max-width: 900px;
-      margin: 20px auto;
-      background: #fff;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(255,105,180,0.2);
-    }
-
-    h2 {
-      color: #ff5c8a;
-      border-bottom: 2px solid #ff8fb1;
-      padding-bottom: 5px;
-    }
-
-    footer {
-      background-color: #ff5c8a;
-      color: white;
-      text-align: center;
-      padding: 12px;
-      margin-top: 30px;
-    }
-
-    ul {
-      line-height: 1.8;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Divya Kocherla</h1>
-    <p>ECE Student | Aspiring Web Developer | Tech Enthusiast</p>
-  </header>
+    <header>
+        <h1 class="animate">Hi, I'm Divya</h1>
+        <p class="animate delay-1">Aspiring ECE Engineer & Developer</p>
+    </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#achievements">Achievements</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <section id="projects">
+        <h2 class="animate delay-2">Projects</h2>
+        <div class="project-card animate delay-3">
+            <h3>Project 1</h3>
+            <p>Brief description here.</p>
+        </div>
+        <div class="project-card animate delay-4">
+            <h3>Project 2</h3>
+            <p>Brief description here.</p>
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm <b>Divya Kocherla</b> from Tadepalligudem, currently studying <b>Electronics and Communication Engineering</b>. I enjoy creating simple web projects and improving my coding skills daily.</p>
-  </section>
+    <footer>
+        <p class="animate delay-5">Contact: divyakocherla2005@gmail.com</p>
+    </footer>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><b>Task Manager App</b> — A simple website where users can add, edit, and delete daily tasks to stay organized.</li>
-      <li><b>Community Service Project:</b> Awareness of Pesticides — Conducted a survey among farmers and educated them on bio-pesticides.</li>
-      <li><b>IoT Smart Home System</b> — Created a smart model to control electrical devices remotely.</li>
-    </ul>
-  </section>
-
-  <section id="achievements">
-    <h2>Achievements</h2>
-    <ul>
-      <li>Completed internship at <b>SkillDzire</b>.</li>
-      <li>Created and hosted my <b>Portfolio Website</b> on GitHub.</li>
-      <li>Participated in <b>Community Service Project</b> related to agriculture.</li>
-      <li>Learning <b>HTML, CSS, and Python</b> for development.</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p><b>Email:</b> <a href="mailto:divyakocherla2005@gmail.com">divyakocherla2005@gmail.com</a></p>
-    <p><b>Address:</b> Near Gantasala Bomma, 6 Shops Center, Vanapalligudem, Tadepalligudem</p>
-  </section>
-
-  <footer>
-    <p>© 2025 Divya Kocherla | All Rights Reserved</p>
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>
